@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="157.5dp"
+        android:layout_centerInParent="true"
+        android:text="No response" 
+        android:textAlignment="center"
+        android:id="@+id/text"
+        android:layout_marginHorizontal="@dimen/fastscroll_default_thickness"
+
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/abc_action_bar_elevation_material"
+        android:id="@+id/editText1"
+        android:text="https://www.boredapi.com/api/activity"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"       
+        android:id="@+id/button1"
+        android:text="Send"
+        android:layout_marginHorizontal="@dimen/abc_action_bar_overflow_padding_start_material"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"       
+        android:id="@+id/button2"
+        android:text="clear"
+        android:layout_marginHorizontal="@dimen/abc_action_bar_overflow_padding_start_material"
+    />
+</LinearLayout>
